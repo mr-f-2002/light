@@ -154,26 +154,39 @@ li{
     .row{
         flex-direction: column;
     }
+    .logo img{
+        width: 150px;
+    }
+    .option ul li{
+        display: block;
+        display: none;
+    }
     .right img{
         width: 100%;
         height: auto;
-        padding-top: 330px;
+        padding-top: 100px;
     }
     .left h1{
-        font-size: 45px;
+        font-size: 30px;
         position: absolute;
         left: 20%;
     }
     .left p{
         bottom: 0;
-        padding-top: 130px;
+        padding-top: 60px;
         position: absolute;
         left: 20%;
+        font-size: 1em;
     }
     .btn{
-        
+        padding: 10px 20px;
+        font-size: 16px;
         position: absolute;
-        left: 20%;
-        margin-top: 220px;
+        left: 18%;
+        margin-top: 120px;
+    }
+    .end ul{
+        transform: scale(0.5);
+        margin-left: 30px;
     }
 }
